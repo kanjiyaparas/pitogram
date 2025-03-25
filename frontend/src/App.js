@@ -50,7 +50,7 @@ function App() {
     setError('');
     try {
       const response = await axios.post(
-        'http://localhost:5000/generate-diagram',
+        'https://pitogram.onrender.com/generate-diagram',
         inputText,
         {
           headers: { 'Content-Type': 'text/plain' },
